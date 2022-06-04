@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuan'portfolio</title>
+    <style>
+        /* color dùng để thay đổi màu chữ ( dùng mã hex #21DFD0  , tên màu red ,  
+        hoặc dùng mã RGB để chọn màu)
+        
+        */
+        body {
+            background-color:#DCD4FE;
+            /*   background-color:#DCD4FE; thay đổi màu nền  */
+            font-family: Verdana, Geneva, Tahoma, sans-serif ;
+            /*   font-family: Verdana, Geneva, Tahoma, sans-serif ; thay đổi 
+            font chữ thành font chữ cần dùng */
+        }
+        h1{
+            color: #D9571E ;
+            background-color: #1E49D9;   
+            letter-spacing: 4px;
+            /* letter-spacing: 2px;thay đỗi khoảng cách giữa các kí tự */
+            border-radius: 10px;
+            width: fit-content;
+            padding: 20px;
+            margin-left: 30%;
+        }
+
+        h2 {
+            color: #E9F434 ;
+            background-color: #1E49D9; 
+            letter-spacing: 2px;
+        }
+
+        #general { 
+            /* text-decoration: underline; thuộc tính gạch chân */
+            text-decoration: underline;
+        }
+        .italic{
+            /* font-style: italic in nghieng chữ  */
+            font-style: italic;
+        }
+/* border-radius: 50px; bo tròn góc của element bất kỳ */
+        img{
+            /* border-width: 2px;
+               border-style: solid;
+            border-color: black; */
+            border: 20px dashed blue;
+            margin-left: 40%;
+         
+            border-radius: 50px;
+        }
+        table, th, td{
+            border: 5px dotted yellow;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- Heding h1,h2,h3,h4,h5,h6-->
+    <h1>
+     Tran Quoc Tuan'portfolio
+    </h1>
+    <!-- img - hien thi anh -->
+    <img src="./DSC_1047.JPG" alt="" height="400" width="auto"> 
+   <!-- hr - tạo line phân cach các dòng khac nhau -->
+   <br>
+   <video src="./thi lai xe.mp4" controls height="400"width="auto"></video>
+   <!-- 
+       thẻ video để hiển thị video
+       thẻ control dùng để hiện thị các thanh điều khiển video trên trang web
+    -->
+   <hr>
+    <h2 class="italic" id="general"> 
+    General Information
+   </h2>
+   <h3> name</h3>
+   <!-- thẻ P hiểm thị các đoạn văn -->
+   <p><i> Tran Quoc </i> Tuan  </p>
+   <hr>
+   <h3 class="italic" >date of birth</h3>
+   <p> <strong> 1/1/ </strong>1/1/2022</p>
+   <hr>
+   <h3 class="italic" > Address </h3>
+   <p><del> Ha Noi </del> city</p>
+   <hr>
+   <h3 class="italic" > Phone Number</h3>
+   <p> <b> 0123456789 </b>0123456789 </p>
+   <hr>
+   <h3 class="italic" > Emaill</h3>
+   <p> <mark> tuan@email.com </mark>tuan@email.com</p>
+   <hr>
+   <h3 class="italic" > Gender</h3>
+   <p> <em> Male </em> Male</p>
+   <hr>
+   <h3 class="italic" > Github link </h3>
+   <p> <sub> tuan github</sub>tuan github   </p>
+   <hr>
+   <h3 class="italic" >Work Experience</h3>
+   <!-- thẻ ol _ Ordered list_ danh sách có thứ tự -->
+   <ol>
+       <!-- li_ hiển thị các thành phần trong danh sách -->
+       <li> <sup> 56 </sup> tutor </li>
+       <li> <ins>PLC  </ins>PLC Engineer</li>
+       <li> <small> Engginee</small> Enggineer</li>
+   </ol>
+   <hr>
+   <h2> Favorite Musics</h2>
+<!--  ul_ Unordered list _ danh sach không có thứ tự -->
+   <ul>
+       <li> Baby Shark <br> 
+<!--  br _ cách dòng -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XqZsoesa55w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <!-- iframe _ thẻ nhúng video từ youtobe  -->
+    </li>
+       <br>
+       <li> Con cò bé bé <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jO2vrSXVDo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </li>
+       <br>
+       <li> Một con vịt<br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lFxKzXW_64k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </li>
+   </ul>
+
+   <hr>
+   <h2>Contact</h2>
+<a href="https://www.youtube.com/watch?v=CzoGUQGH68E">visit my profile
+<!--  thẻ a _ anchor để neo  clip , link ...
+href _ hyperlink reference _ gắn link -->
+</a>
+
+
+
+
+<h2>
+    my project
+</h2>
+<table>
+    <tr>
+        <td>No.</td>
+        <td>Project name</td>
+    </tr>
+    <tr>
+        <td>1.</td>
+        <td>Portfolio page</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>Portfolio page</td>
+    </tr>
+    <tr>
+        <td>3.</td>
+        <td>Cat ID Registration Page</td>
+    </tr>
+</table>
+
+
+</body>
+</html>
